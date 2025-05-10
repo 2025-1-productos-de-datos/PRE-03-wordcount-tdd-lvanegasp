@@ -2,12 +2,12 @@
 # python3 -m homework --input data/input --output data/output
 
 
+from homework.src._internals.count_words import count_words
 from homework.src._internals.parse_args import parse_args
+from homework.src._internals.preprocess_lines import preprocess_lines
 from homework.src._internals.read_all_lines import read_all_lines
-from homework.src.count_words import count_words
-from homework.src.preprocess_lines import preprocess_lines
-from homework.src.split_into_words import split_into_words
-from homework.src.write_word_counts import write_word_counts
+from homework.src._internals.split_into_words import split_into_words
+from homework.src._internals.write_word_counts import write_word_counts
 
 
 def main():
